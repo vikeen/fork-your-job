@@ -18,7 +18,7 @@ class LoginTest extends DuskTestCase
      * @return void
      * @throws Throwable
      */
-    public function testExample()
+    public function test_user_can_login_to_their_account()
     {
         $user = User::factory()->create([
             'email' => 'john.doe@gmail.com'
